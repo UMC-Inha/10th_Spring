@@ -56,4 +56,29 @@ BCryptPasswordEncoder를 사용해 비밀번호를 해싱했고, 회원가입 AP
 
 ---
 
+## 4. 회원가입 API 리팩토링
+
+8주차 Security 구현 후에 다시 한번 회원가입 API를 호출해보니, `member` 테이블에는 회원 정보가 저장되지만, 주소, 약관 동의, 선호 음식 카테고리 정보는 저장되지 않는 것을 확인했습니다.
+까먹었습니다... 따라서 이전 API 설계에 맞추어 주소, 약관 동의, 선호 음식 카테고리까지 함께 저장되도록 리팩토링했습니다.
+
+```text
+regionId, address, addressDetail -> member_address
+terms -> member_term_agreement
+favoriteFoodCategoryIds -> member_food_category
+```
+
+회원가입은 하나의 `@Transactional` 흐름에서 처리되므로, 중간에 지역/약관/음식 카테고리 검증이 실패하면 회원 row만 남지 않도록 처리!
+
+### 회원가입 성공
+
+정상 요청에서는 회원이 생성되고, 회원의 주소, 약관 동의, 선호 음식 카테고리 정보가 함께 저장되는 것을 확인했습니다.
+
+![](https://img.boostad.site/2026/05/cd7eb5f3bfcf82dbd869432759c5846b.png)
+
+![](https://img.boostad.site/2026/05/adef2a7ba49187d79528f582d2575437.png)
+
+![](https://img.boostad.site/2026/05/f567bdb129db1f34c7f33a275bd097d6.png)
+
+---
+
 # 피어 리뷰
