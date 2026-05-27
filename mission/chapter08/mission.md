@@ -82,3 +82,11 @@ favoriteFoodCategoryIds -> member_food_category
 ---
 
 # 피어 리뷰
+
+[여니 8주차 pr](https://github.com/UMC-Inha/10th_Spring_Practice_Mission/pull/51)
+
+![](https://img.boostad.site/2026/05/be78c684616122484b344dd6ceba9b64.png)
+
+![](https://img.boostad.site/2026/05/4ae5e15576e9fd8473b54b439e213dd4.png)
+
+![](https://img.boostad.site/2026/05/51c3e369e3f29d1bad44688b46fa5877.png)
