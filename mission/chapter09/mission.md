@@ -15,3 +15,18 @@
 ---
 
 # 피어리뷰
+
+## [윤샘 PR](https://github.com/UMC-Inha/10th_Spring_Practice_Mission/pull/59)
+
+![](https://img.boostad.site/2026/06/a58ba09985f6acf552f03ddf5d8e03f5.png)
+
+![](https://img.boostad.site/2026/06/2392bccfc55ceb54f8b9484b9a54c9db.png)
+
+---
+## [여니 PR](https://github.com/UMC-Inha/10th_Spring_Practice_Mission/pull/58)
+
+![](https://img.boostad.site/2026/06/6f46dfc626ff42b9f98317346e28137f.png)
+
+![](https://img.boostad.site/2026/06/547793639b39fc7eabc1c1a1adc87b65.png)
+
+![](https://img.boostad.site/2026/06/64eca18ab079e8263fed5a4b43cb730b.png)
