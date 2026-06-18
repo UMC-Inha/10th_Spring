@@ -9,3 +9,8 @@
 
 ## 4. 마이페이지 조회 실패 (잘못된 액세스 토큰)
 ![mypageFailure.png](./images/mypageFailure.png)
+
+## 5. 피어리뷰
+![9주차_제이의_유리_피어리뷰.png](./images/9주차_제이의_유리_피어리뷰.png)
+
+
